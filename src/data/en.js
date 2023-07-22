@@ -111,7 +111,7 @@ export default {
       ],
     },
     {
-      title: 'Full Stack Engineer',
+      title: 'Consultant',
       companySite: 'https://www.socialcreds.com/',
       summary:
         `<ul>
