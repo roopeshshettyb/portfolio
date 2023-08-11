@@ -722,7 +722,7 @@ export default {
     {
       name: 'Money',
       icon: 'attach_money',
-      description: 'Especially like a million dollars',
+      description: 'Monies',
     },
     {
       name: 'Movies',
