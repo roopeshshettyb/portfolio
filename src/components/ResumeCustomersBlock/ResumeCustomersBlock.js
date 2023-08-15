@@ -14,7 +14,7 @@ const ResumeCustomersBlock = ({ customers }) => (
     <div className="container">
       <div className="heading">
         <h2>
-          <FormattedMessage id="Resume.customers" defaultMessage="Customers" />
+          <FormattedMessage id="Resume.customers" defaultMessage="Clients" />
         </h2>
         <p>
           <FormattedMessage
