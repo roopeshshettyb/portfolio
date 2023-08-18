@@ -34,7 +34,7 @@ const ContributionsBlock = ({ shiftDate, today, contributions, total, isMobile }
                 />
             </div>
             <h2 style={{ paddingBottom: "20px", color: 'black' }}>
-                Github
+                Github + HackerRank
             </h2>
             <div style={{ paddingRight: isMobile ? "10px" : "0px" }}>
                 <CalendarHeatmap
