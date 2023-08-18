@@ -191,7 +191,7 @@ export default {
       </ul>
       `,
       startDate: 'Feb 2021',
-      endDate: 'Jun 2023',
+      endDate: 'May 2023',
       isCurrent: false,
       company: 'Linguaphile Skills Hub',
       technologies: [
@@ -541,8 +541,8 @@ export default {
       schoolName: 'Electronics and Communication Engineering',
       fieldOfStudy: 'Electronics and Communication',
       companySite: 'https://pes.edu/',
-      startDate: 'Aug 2018',
-      endDate: 'Aug 2022',
+      startDate: '2018',
+      endDate: '2022',
       degree: 'Bachelors of Technology',
       activities:
         'PES University, Bengaluru, India',

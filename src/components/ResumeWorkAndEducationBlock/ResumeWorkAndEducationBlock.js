@@ -32,9 +32,10 @@ function calculateDateDifference(startDateStr, endDateStr) {
     endDate = formatDate(endDateStr);
   }
 
-  const diffInMonths = (endDate.getFullYear() - startDate.getFullYear()) * 12 + (endDate.getMonth() - startDate.getMonth());
-  const years = Math.floor(diffInMonths / 12);
-  const months = diffInMonths % 12;
+  let diffInMonths = (endDate.getFullYear() - startDate.getFullYear()) * 12 + (endDate.getMonth() - startDate.getMonth());
+  diffInMonths++
+  let years = Math.floor(diffInMonths / 12);
+  let months = diffInMonths % 12;
 
   let result = '';
   if (years > 0) {
@@ -45,8 +46,8 @@ function calculateDateDifference(startDateStr, endDateStr) {
     result += result.length > 0 ? ' ' : '';
     result += months === 1 ? `${months} month` : `${months} months`;
   }
-
-  return result;
+  if (result === '') return '';
+  return `(${result})`;
 }
 
 const formatPeriod = (start, end, formatMessage) => {
@@ -54,7 +55,7 @@ const formatPeriod = (start, end, formatMessage) => {
   //   (isToday ? new Date().getFullYear() : parseInt(end, 10)) -
   //   parseInt(start, 10);
 
-  return `${start} - ${end} (${calculateDateDifference(start, end)})`;
+  return `${start} - ${end} ${calculateDateDifference(start, end)}`;
 };
 
 const ResumeWorkAndEducationBlock = ({
