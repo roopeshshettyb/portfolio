@@ -24,7 +24,6 @@
     "react-intl": "^2.4.0",
     "react-lazyload": "^2.6.2",
     "react-redux": "^5.0.6",
-    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
     "react-scroll": "^1.5.5",
     "react-scrollspy": "^3.3.3",
