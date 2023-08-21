@@ -83,7 +83,7 @@ class Resume extends Component {
 
     const { contributions, total, isMobile } = this.state;
     const mailLink = isMobile ? 'mailto:roopeshb13@gmail.com?subject=Hey%2C%20Roopesh' : `https://mail.google.com/mail/?view=cm&to=roopeshb13%40gmail.com&su=Hey,Roopesh`;
-    const cv = this.props.cvPDF;
+    const cv = "https://drive.google.com/file/d/13BGICJ6vg5_i_ZN01hJf_De0mHocpKQX/view?usp=sharing";
 
     const { theme } = this.props;
     const { formatMessage, formatDate } = this.props.intl;
@@ -213,12 +213,12 @@ Resume.propTypes = {
 };
 
 Resume.defaultProps = {
-  firstName: 'Stéphane',
-  lastName: 'Monnot',
+  firstName: 'Roopesh',
+  lastName: 'Babu',
   emailAddress: 'roopeshb13@gmail.com',
   headline: 'Full Stack Engineer',
   summary:
-    '♥ Microservice architecture lover ♥<br>Experienced Chief Technology Officer, Developer & Teacher with a demonstrated history of working in the internet industry. Skilled in PHP (Symfony & Laravel frameworks), TDD, continuous integration, WordPress, Linux System Administration, and Application Programming Interfaces. Strong engineering professional with a Licence focused in Web Development from Université Claude Bernard Lyon 1. My favourite stack : Laravel 5, Symfony 3, PHPUnit, PHPQA, Micro-services, Docker, ReactJS, ReactNative with continuous integration on Gitlab.',
+    'Roopesh is an enthusiastic college graduate. He is extremely passionate about Mathematics and started his tutoring career by teaching maths. With a never-ending hunger for success, he learns new things and puts his learning to use.',
   pictureUrl:
     'https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYqAAAAJGQ0YjYxNDI0LTEwOTMtNGVkNC1hNDIxLWYyNzNkMTYzNDMzNg.jpg',
   positions: [],

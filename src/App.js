@@ -17,6 +17,7 @@ import IntlRoute from './IntlRoute';
 import Analytics from './components/Analytics/Analytics';
 import NotFoundScreen from './containers/NotFoundScreen/NotFoundScreen';
 import ResumeScreen from './containers/ResumeScreen/ResumeScreen';
+import RawResume from './containers/RawResume/RawResume';
 import Meta from './containers/Meta/Meta';
 import { changeLanguage } from './actions';
 import { history } from './store/configureStore';
@@ -56,6 +57,12 @@ export const App = ({ currentLanguage, onChangeLanguage }) => {
                 language="en"
                 path="/en/resume.html"
                 component={ResumeScreen}
+              />
+              <IntlRoute
+                path="/resume"
+                language="en"
+                onChangeLanguage={onChangeLanguage}
+                component={RawResume}
               />
               <IntlRoute
                 onChangeLanguage={onChangeLanguage}
