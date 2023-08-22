@@ -83,7 +83,8 @@ class Resume extends Component {
 
     const { contributions, total, isMobile } = this.state;
     const mailLink = isMobile ? 'mailto:roopeshb13@gmail.com?subject=Hey%2C%20Roopesh' : `https://mail.google.com/mail/?view=cm&to=roopeshb13%40gmail.com&su=Hey,Roopesh`;
-    const cv = "https://drive.google.com/file/d/13BGICJ6vg5_i_ZN01hJf_De0mHocpKQX/view?usp=sharing";
+    // const cv = this.props.cvPDF;
+    const cv = '/resume';
 
     const { theme } = this.props;
     const { formatMessage, formatDate } = this.props.intl;
