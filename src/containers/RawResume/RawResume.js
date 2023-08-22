@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function RawResume() {
+
     const [pdfUrl, setPdfUrl] = useState(null);
     const drive = 'https://drive.google.com/file/d/13BGICJ6vg5_i_ZN01hJf_De0mHocpKQX/view';
     const fetchPdf = async () => {
@@ -23,7 +24,12 @@ function RawResume() {
         }
     };
     useEffect(() => {
-        fetchPdf();
+        const isMobile = /Mobi/i.test(window.navigator.userAgent);
+        if (isMobile) {
+            window.location = drive;
+        } else {
+            fetchPdf();
+        }
     }, [])
     return (
         <div>
