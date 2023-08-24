@@ -3,6 +3,8 @@ export default {
     download: 'Resume',
     hireMe: 'Hire me',
     workExperienceAndEducation: 'Work experience & Education',
+    getInTouch: `Let's get in touch!`,
+    clickAway: 'Only a click away!',
     years: ' years',
     year: ' year',
     skills: 'Skills',
@@ -30,6 +32,7 @@ export default {
     languages: 'Languages',
     hobbies: 'Hobbies',
     projects: 'Projects',
-    achievements: 'Achievements'
+    achievements: 'Achievements',
+    contact: 'Contact Me'
   },
 };

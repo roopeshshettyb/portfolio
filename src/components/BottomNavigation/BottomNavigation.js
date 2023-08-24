@@ -10,6 +10,7 @@ import SchoolIcon from '@material-ui/icons/School';
 import SettingsIcon from '@material-ui/icons/SettingsApplications';
 // import LanguageIcon from '@material-ui/icons/Language';
 // import ToysIcon from '@material-ui/icons/Toys';
+import { Phone } from '@material-ui/icons';
 import CodeIcon from '@material-ui/icons/Code';
 import { Star } from '@material-ui/icons';
 
@@ -60,6 +61,11 @@ const buttons = [
     label: 'SimpleBottomNavigation.projects',
     name: 'Resume-projects',
     icon: <CodeIcon />,
+  },
+  {
+    label: 'SimpleBottomNavigation.contact',
+    name: 'ContactMe-block',
+    icon: <Phone />,
   },
 
 ];

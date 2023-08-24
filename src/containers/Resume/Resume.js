@@ -16,9 +16,11 @@ import ResumeCustomersBlock from '../../components/ResumeCustomersBlock/ResumeCu
 import BottomNavigation from '../../components/BottomNavigation/BottomNavigation';
 import ContributionsBlock from '../../components/ContributionsBlock/ContributionsBlock';
 import ResumeAchievementsBlock from '../../components/ResumeAchievementsBlock/ResumeAchievementsBlock';
+import ContactMeBlock from '../../components/ContactMeBlock/ContactMeBlock';
 import axios from 'axios';
 import appTheme from '../../theme';
 import './Resume.css';
+import { WhatsappIcon, EmailIcon, LinkedinIcon } from 'react-share';
 
 class Resume extends Component {
 
@@ -83,6 +85,9 @@ class Resume extends Component {
 
     const { contributions, total, isMobile } = this.state;
     const mailLink = isMobile ? 'mailto:roopeshb13@gmail.com?subject=Hey%2C%20Roopesh' : `https://mail.google.com/mail/?view=cm&to=roopeshb13%40gmail.com&su=Hey,Roopesh`;
+    const whatsappLink = isMobile ? "https://api.whatsapp.com/send/?phone=918867771953&text=Hi, Roopesh. Are you open for some collaboration?&type=phone_number&app_absent=0" : "https://web.whatsapp.com/send/?phone=918867771953&text=Hi%2C+Roopesh.+Are+you+open+for+some+collaboration%3F&type=phone_number&app_absent=0";
+    const linkedInLink = 'https://www.linkedin.com/in/roopeshshettyb/';
+
     // const cv = this.props.cvPDF;
     const cv = '/resume';
 
@@ -104,6 +109,29 @@ class Resume extends Component {
         color: '#fff',
       },
     };
+
+    const contactMeIconWidth = isMobile ? "25vw" : "20vw"
+
+
+    const contactOptions = [{
+      method: 'Mail',
+      // icon: require('../../data/img/gmail.png'),
+      icon: <EmailIcon size={contactMeIconWidth} />,
+      link: mailLink,
+      imageWidth: contactMeIconWidth
+    },
+    {
+
+      method: 'Whatsapp',
+      icon: <WhatsappIcon size={contactMeIconWidth} />,
+      link: whatsappLink
+    },
+    {
+
+      method: 'LinkedIn',
+      icon: <LinkedinIcon size={contactMeIconWidth} />,
+      link: linkedInLink
+    }]
 
     function shiftDate(date, numDays) {
       const newDate = new Date(date);
@@ -147,7 +175,7 @@ class Resume extends Component {
           pictureUrl={this.props.pictureUrl}
           resumeUrl={cv}
           style={appTheme.phpColor.style}
-          isMobile={isMobile}
+          whatsappLink={whatsappLink}
         />
 
         <ResumeWorkAndEducationBlock
@@ -181,7 +209,7 @@ class Resume extends Component {
 
         <ContributionsBlock isMobile={isMobile} shiftDate={shiftDate} today={today} total={total} contributions={contributions} />
         <ResumeCustomersBlock customers={this.props.customers} />
-
+        <ContactMeBlock contactOptions={contactOptions} />
 
         <BottomNavigation />
       </div>

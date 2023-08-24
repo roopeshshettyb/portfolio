@@ -14,7 +14,7 @@ const ResumeAboutMeBlock = ({
   summary,
   pictureUrl,
   resumeUrl,
-  isMobile
+  whatsappLink
 }) => {
   let pictureSrc = pictureUrl;
   if (!/^https?:\/\//i.test(pictureUrl)) {
@@ -67,7 +67,7 @@ const ResumeAboutMeBlock = ({
               </Button>
               &nbsp;&nbsp;&nbsp;
               <Button
-                href={isMobile ? "https://api.whatsapp.com/send/?phone=918867771953&text=Hi, Roopesh. Are you open for some collaboration?&type=phone_number&app_absent=0" : "https://web.whatsapp.com/send/?phone=918867771953&text=Hi%2C+Roopesh.+Are+you+open+for+some+collaboration%3F&type=phone_number&app_absent=0"}
+                href={whatsappLink}
                 variant="contained"
                 color="secondary"
                 target="_blank"

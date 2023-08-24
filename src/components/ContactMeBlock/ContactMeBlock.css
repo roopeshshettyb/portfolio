@@ -1,0 +1,12 @@
+.ContactMeContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ContactMeBlock-options {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
