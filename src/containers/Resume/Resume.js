@@ -110,7 +110,7 @@ class Resume extends Component {
       },
     };
 
-    const contactMeIconWidth = isMobile ? "25vw" : "20vw"
+    const contactMeIconWidth = isMobile ? "25vw" : "10vw"
 
 
     const contactOptions = [{
