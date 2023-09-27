@@ -9,23 +9,6 @@
     }
   },
   {
-    "name": "Simplifii",
-    "description": "A Versatile Product Company",
-    "picture": "customer002.jpg",
-    "front": {
-      "style": {
-        "background": "#fff",
-        "color": "#0D1655"
-      }
-    },
-    "back": {
-      "style": {
-        "background": "#0D1655",
-        "color": "#fff"
-      }
-    }
-  },
-  {
     "name": "Gift Of Time",
     "description": "India's First Time Bank",
     "picture": "customer003.jpg",
