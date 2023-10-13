@@ -124,7 +124,7 @@ export default {
         <li>Developing front and back-end website architecture</li>
       </ul>`,
       startDate: 'Jan 2022',
-      endDate: 'Present',
+      endDate: 'Oct 2023',
       // isCurrent: true,
       company: 'Gift Of Time',
       technologies: [
