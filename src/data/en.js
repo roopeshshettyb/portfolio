@@ -62,10 +62,10 @@ export default {
   ],
   positions: [
     {
-      title: 'Full Stack Engineer',
+      title: 'Software Developer',
       companySite: 'https://www.globalbees.com/',
       summary:
-        `<ul><li>Developed high-performance invoicing service handling 5x the previous volume, ensuring efficient processing of thousands of orders daily.</li>
+        `<ul><li>Writing epic and sophisticated queries in BigQuery to replace the functionality of entire servers to handle ETL in an efficient manner with the help of BigQuery & AirByte.</li><li>Developed high-performance invoicing service handling 5x the previous volume, ensuring efficient processing of thousands of orders daily.</li>
         <li>Utilized Zoho Bulk Invoicing APIs and integrated Amazon SQS and Kinesis for streamlined invoicing and increased productivity.</li>
         <li>Created configurable Python service converting Excel files to CSVs, offering adaptability to different file sources and destinations.</li>
         </ul>`,
