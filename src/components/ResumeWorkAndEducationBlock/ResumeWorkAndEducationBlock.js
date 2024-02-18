@@ -64,6 +64,7 @@ const ResumeWorkAndEducationBlock = ({
   workIconStyle,
   educationIconStyle,
   formatMessage,
+  isMobile
 }) => (
   <ScreenBlock id="Resume-work" className="ResumeWorkAndEducationBlock">
     <div className="container">
@@ -82,7 +83,7 @@ const ResumeWorkAndEducationBlock = ({
         </p>
       </div>
 
-      <VerticalTimeline>
+      <VerticalTimeline animate={isMobile ? false : true}>
         {positions.map((position, i) => {
           let picture = null;
           if (position.picture) {

@@ -24,7 +24,7 @@ const ResumeAboutMeBlock = ({
   return (
     <ScreenBlock
       id="Resume-aboutMe"
-      style={style}
+      style={{ ...style }}
       className="ResumeAboutMeBlock"
     >
       <div className="container">

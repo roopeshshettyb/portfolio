@@ -8,9 +8,17 @@ export default {
   firstName: 'Roopesh',
   lastName: 'Babu',
   emailAddress: 'roopeshb13@gmail.com',
-  headline: 'Full Stack Engineer in Bengaluru',
+  headline: 'Software Engineer in Bengaluru',
   summary: `
-  Roopesh is an enthusiastic college graduate. He is extremely passionate about Mathematics and started his tutoring career by teaching maths. With a never-ending hunger for success, he learns new things and puts his learning to use.<br> <br>  He loves to work and is passionate about any task he undertakes. He will stop at nothing to accomplish the task.<br> <br> Currently working as a full-stack developer, he loves building end-to-end products and going through the process of feature development. He loves fixing problems and doesn't stop until he finds a good solution.
+
+  
+<b>Results-driven problem solver -</b> Excels in solving complex challenges with innovative solutions, from supply chain optimization to successful campaign launches.<br/>
+
+<b>Passionate builder and leader -</b> Leads diverse teams in developing high-performance systems, scaling initiatives, and mentoring others to reach their full potential.<br/>
+
+<b>Adaptable and resourceful -</b> Comfortable in diverse environments, embraces new technologies. Experience spans various industries and roles.<br/>
+
+<b>Impactful contributor -</b> Committed to positive impact through volunteering, saving farmers' produce, and exceeding customer expectations.<br/>
   `,
   pictureUrl: 'me.jpg',
   dateOfBirth: '2000-06-09',
@@ -62,13 +70,15 @@ export default {
   ],
   positions: [
     {
-      title: 'Software Developer',
+      title: 'Software Engineer',
       companySite: 'https://www.globalbees.com/',
       summary:
-        `<ul><li>Writing epic and sophisticated queries in BigQuery to replace the functionality of entire servers to handle ETL in an efficient manner with the help of BigQuery & AirByte.</li><li>Developed high-performance invoicing service handling 5x the previous volume, ensuring efficient processing of thousands of orders daily.</li>
-        <li>Utilized Zoho Bulk Invoicing APIs and integrated Amazon SQS and Kinesis for streamlined invoicing and increased productivity.</li>
-        <li>Created configurable Python service converting Excel files to CSVs, offering adaptability to different file sources and destinations.</li>
-        </ul>`,
+        `<ul><li><b>Intelligent Procurement & Distribution -</b> Designed and implemented efficient supply chain processes for 200,000+ products across hundreds of warehouses by analyzing various data sources, optimizing inventory management, and streamlining distribution, enhancing overall company effectiveness.</li>
+
+        <li><b>10x improvement in efficiency of applications -</b> Leveraging the synergy between BigQuery and AirByte, eliminated entire servers and achieved a remarkable 10x acceleration in ETL processes ensuring unparalleled efficiency and scalability, marking a significant advancement in data processing capabilities across applications.</li>
+        
+        <li><b>Pricing Service -</b> Designed and deployed a multi-worker architecture using PM2 which fetches information of hundreds of products across marketplaces like Amazon, Flipkart within minutes. This parallelized approach optimizes data retrieval and ensures efficient processing of pricing information from multiple sources for real-time business decisions.</li></ul>
+      `,
       startDate: 'Aug 2022',
       endDate: 'Present',
       period: 1,
@@ -111,22 +121,22 @@ export default {
       ],
     },
     {
-      title: 'Consultant',
+      title: 'Software Consultant',
       companySite: 'https://www.socialcreds.com/',
       summary:
         `<ul>
-        <li>Launched Social Creds, the world's largest kiddie time bank</li>
-        <li>
-          Business architect for the launch of India's first time bank, currently used
-          by over 1,000 users who volunteered across 150+ events, clocking 30,000
-          hours
-        </li>
-        <li>Developing front and back-end website architecture</li>
-      </ul>`,
+        <li><b>Social Creds Visionary -</b> Pioneered the establishment of Social Creds, the world's largest kiddie time bank, introducing an innovative platform that promotes time-based volunteering and community engagement.</li>
+    
+        <li><b>India's Time Bank Architect -</b> Orchestrated the launch and served as the business architect for India's inaugural time bank, now boasting over 4,000 users who have volunteered in 200+ events, contributing an impressive 70,000 collective hours.</li>
+    
+        <li><b>Website Architecture Leader -</b> Led a dynamic team of interns in the comprehensive development of front and back-end website architecture, overseeing the end-to-end process and ensuring seamless integration of new features.</li>
+    </ul>
+    
+      `,
       startDate: 'Jan 2022',
-      endDate: 'Oct 2023',
+      endDate: 'Feb 2024',
       // isCurrent: true,
-      company: 'Gift Of Time',
+      company: 'Gift Of Time Foundation',
       technologies: [
         {
           name: 'React',
@@ -153,10 +163,13 @@ export default {
       companySite: 'https://www.lynxemi.com/',
       summary:
         `<ul>
-        <li>Handling the development and deployment of a new product end-to-end using the MERN Stack.</li>
-        <li>Integrating BPMN Engines such as Netflix Conductor and Camunda.</li>
-        <li>Ensuring real-time responsiveness across multiple devices.</li>
-      </ul>
+        <li><b>MERN Stack Maestro -</b> Spearheading the entire lifecycle of a new product, from development to deployment, leveraging the MERN Stack for seamless and efficient execution.</li>
+    
+        <li><b>BPMN Integration Guru -</b> Seamlessly integrating BPMN Engines like Netflix Conductor and Camunda to enhance the product's workflow and process management capabilities.</li>
+    
+        <li><b>Cross-Platform Responsiveness Expert -</b> Guaranteeing real-time responsiveness on various devices, ensuring a dynamic and user-friendly experience across multiple platforms.</li>
+    </ul>
+    
       `,
       startDate: 'May 2022',
       endDate: 'Aug 2022',
@@ -181,14 +194,17 @@ export default {
       ],
     },
     {
-      title: 'Teacher',
+      title: 'Tutor',
       companySite: 'https://www.linguaphile.co.uk/',
       summary:
         `<ul>
-        <li>Tutored over 10 students in the IGCSE curriculum.</li>
-        <li>Created a unique and interactive learning experience to keep the students engaged during the class.</li>
-        <li>Prepared logs and tracked the progress of the students and shared the reports with the parents.</li>
-      </ul>
+        <li><b>IGCSE Tutor Extraordinaire -</b> Provided personalized tutoring to 10 students enrolled in the IGCSE curriculum, ensuring focused and targeted academic support.</li>
+    
+        <li><b>Progress Tracking Specialist -</b> Implemented meticulous progress tracking by maintaining detailed logs, allowing for comprehensive monitoring of student development. Regularly communicated progress reports to parents, showcasing notable achievements and areas for improvement.</li>
+    
+        <li><b>Academic Excellence Achiever -</b> Attained outstanding academic results, with the majority of students achieving distinction levels under the tailored guidance provided.</li>
+    </ul>
+       
       `,
       startDate: 'Feb 2021',
       endDate: 'May 2023',
@@ -214,10 +230,11 @@ export default {
       companySite: 'https://www.myby.in/',
       summary:
         `<ul>
-        <li>Conceptualized design and implemented the customer experience journeys for the launch of MyBy, facilitating over 20,000 transactions and onboarding zero to 20,000 customers and zero to 1,000 vendors in 4-5 months.</li>
-        <li>Designed and conceptualized events that launched MyBy across 100 communities in Bangalore, achieving a 20x delivery on community expansion within 5 months and a customer retention rate of 60%.</li>
-        <li>Assisted farmers in selling over 100 tonnes of produce during COVID by onboarding them onto MyBy, listing their store, and enabling direct orders from end customers, contributing to the "Save the Farmer" initiative.</li>
-      </ul>      
+        <li><b>Zero to 20,000 customers & Zero to 1,000 vendors –</b> Conceptualized design and implemented the customer experience journeys for the launch of MyBy in 4-5 months, Facilitating over 100,000 transactions.</li>
+        <li><b>Sales Team Head and Trainer -</b> Headed and trained the sales team on how to approach customers, vendors to onboard them onto our platform.</li>    
+        <li><b>Corporate Collaboration Specialist -</b> Collaborated with companies like HP, QuEST, Lantro Vision to launch a successful Diwali Campaign and executed the delivery of sweets to over 10,000 Employees all over India.</li>
+    </ul>
+       
      `,
       startDate: 'Dec 2019',
       endDate: 'Dec 2021',
@@ -242,10 +259,13 @@ export default {
       title: 'Personal Tutor',
       summary:
         `<ul>
-       <li>Tutored over 30 struggling, average, and competent students in IGCE, ICSE, and CBSE curriculum of French, Maths, Physics, Chemistry for Grades 4-12.</li>
-       <li>Collaborated with students to complete homework assignments, identify lagging skills, and correct weaknesses.</li>
-       <li>Prepared lesson plans to offer structured learning and sufficient practice to ensure clarity of concepts.</li>
-     </ul>
+        <li><b>Multifaceted Academic Mentor -</b> Guided over 30 students spanning different proficiency levels in French, Maths, Physics, and Chemistry within the IGCE, ICSE, and CBSE frameworks for Grades 4-12.</li>
+    
+        <li><b>Collaborative Learning Facilitator -</b> Fostered collaborative learning by assisting students in homework completion, skill gap identification, and addressing weaknesses effectively.</li>
+    
+        <li><b>Customized Lesson Plan Architect -</b> Developed and implemented tailored lesson plans, ensuring a well-structured learning environment that provided ample practice for a comprehensive understanding of concepts.</li>
+    </ul>
+    
      `,
       startDate: 'Aug 2019',
       endDate: 'Aug 2022',
@@ -412,6 +432,16 @@ export default {
       },
     },
     {
+      name: 'AirByte',
+      language: {
+        name: 'Data',
+        style: 'ruby',
+      },
+      category: {
+        name: 'Frameworks / SDK / CMS',
+      },
+    },
+    {
       name: 'MongoDB',
       language: {
         name: 'Data',
@@ -549,6 +579,33 @@ export default {
     }
   ],
   projects: [
+    {
+      title: 'Flash Pact',
+      subtitle: 'College focused Recruitment Platform',
+      category: 'library',
+      subcategory: 'aws',
+      contribution: true,
+      links: [
+        {
+          url: 'https://www.flashpact.in',
+          text: 'View Live Site',
+        }
+      ],
+      technologies: [
+        {
+          name: 'Serverless',
+        },
+        {
+          name: 'Postgres',
+        },
+        {
+          name: 'Javascript',
+        },
+      ],
+      content:
+        'A niche recruiting platform focused on college placements to improve the SOP and optimize the placements process for all stake holders involved with real time analytics and statistics.',
+      date: 'Aug 2023 - Nov 2023',
+    },
     {
       title: 'Creeper',
       subtitle: 'Monitoring Service',
@@ -753,7 +810,7 @@ export default {
       subcategory: 'teach',
       contribution: true,
       items: [],
-      images: ["https://drive.google.com/uc?id=1dLdvhdJXVSX9QhoEURCRcViLnT-KLzdE", "https://drive.google.com/uc?id=1dP0Pndbe3VFOAygeVc_r8ZDLhQqYr-ih"],
+      images: ["./students1.jpg", "./students2.jpg"],
       links: [
         {
           url: 'https://drive.google.com/file/d/1e5hycVufL8EGCF8YGZpzSEU9srAz7Q5g/view?usp=sharing',

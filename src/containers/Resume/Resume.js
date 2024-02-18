@@ -43,6 +43,7 @@ class Resume extends Component {
   fetchHubContributions = async () => {
     try {
       const response = await axios.get('https://portfolio-api-blond.vercel.app/github');
+      // const response = await axios.get('http://localhost:3000/github');
       let total = (response.data.sum)
       this.setState({ contributions: { ...this.state.contributions, github: response.data.contributions }, total: this.state.total + total })
     } catch (error) {
@@ -53,6 +54,7 @@ class Resume extends Component {
   fetchContributions = async () => {
     try {
       const response = await axios.get('https://portfolio-api-blond.vercel.app/');
+      // const response = await axios.get('http://localhost:3000/');
       let total = (response.data.sum)
       this.setState({ contributions: { ...this.state.contributions, gitlab: response.data.contributions }, total: this.state.total + total })
     } catch (error) {
@@ -184,6 +186,7 @@ class Resume extends Component {
           positions={this.props.positions}
           educations={this.props.educations}
           formatMessage={formatMessage}
+          isMobile={this.state.isMobile}
         />
 
         <ResumeSkillsBlock skills={skills} tools={this.props.tools} />
