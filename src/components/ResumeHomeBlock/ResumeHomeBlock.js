@@ -43,6 +43,15 @@ export const ResumeHomeBlock = ({ style, shortFullName, headline }) => (
         <div style={{ ...appTheme.dockerColor.style }}>
           {appTheme.dockerColor.icon}
         </div>
+        <div style={{ ...appTheme.mongoColor.style }}>
+          {appTheme.mongoColor.icon}
+        </div>
+        <div style={{ ...appTheme.awsColor.style }}>
+          {appTheme.awsColor.icon}
+        </div>
+        <div style={{ ...appTheme.tsColor.style }}>
+          {appTheme.tsColor.icon}
+        </div>
 
       </GridBackground>
     </div>

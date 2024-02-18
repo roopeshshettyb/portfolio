@@ -14,7 +14,9 @@ import WordpressIcon from 'react-devicon/wordpress/plain';
 import CordovaIcon from './components/Icons/Apachecordova';
 import Nestjs from './components/Icons/Nestjs/Nestjs';
 import IconAngularjs from 'react-devicon/angularjs/plain'
-import IconExpress from 'react-devicon/express/original'
+import IconExpress from 'react-devicon/express/original';
+import IconMongodb from 'react-devicon/mongodb/original-wordmark';
+import IconTypescript from 'react-devicon/typescript/plain'
 import { School, Work } from '@material-ui/icons';
 
 const theme = {
@@ -72,6 +74,14 @@ const theme = {
     },
     className: 'vertical-timeline-element--docker',
     icon: <IconDjango />,
+  },
+  tsColor: {
+    style: {
+      background: '#019bc6',
+      color: '#fff',
+    },
+    className: 'vertical-timeline-element--docker',
+    icon: <IconTypescript />,
   },
   cordovaColor: {
     style: {
@@ -160,6 +170,14 @@ const theme = {
     },
     className: 'vertical-timeline-element--others',
     icon: <Work />,
+  },
+  mongoColor: {
+    style: {
+      background: 'green',
+      color: 'green',
+    },
+    className: 'vertical-timeline-element--others',
+    icon: <IconMongodb />,
   },
 };
 
