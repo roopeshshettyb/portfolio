@@ -83,7 +83,7 @@ const ResumeWorkAndEducationBlock = ({
         </p>
       </div>
 
-      <VerticalTimeline animate={isMobile ? false : true}>
+      <VerticalTimeline animate={false}>
         {positions.map((position, i) => {
           let picture = null;
           if (position.picture) {
