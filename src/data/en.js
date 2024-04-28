@@ -134,7 +134,7 @@ export default {
     
       `,
       startDate: 'Jan 2022',
-      endDate: 'Feb 2024',
+      endDate: 'Dec 2023',
       // isCurrent: true,
       company: 'Gift Of Time Foundation',
       technologies: [
