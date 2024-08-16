@@ -21,6 +21,7 @@ import RawResume from './containers/RawResume/RawResume';
 import Meta from './containers/Meta/Meta';
 import { changeLanguage } from './actions';
 import { history } from './store/configureStore';
+import Whatsapp from './containers/Whatsapp';
 
 addLocaleData([...en]);
 
@@ -63,6 +64,12 @@ export const App = ({ currentLanguage, onChangeLanguage }) => {
                 language="en"
                 onChangeLanguage={onChangeLanguage}
                 component={RawResume}
+              />
+              <IntlRoute
+                path="/whatsapp"
+                onChangeLanguage={onChangeLanguage}
+                language="en"
+                component={Whatsapp}
               />
               <IntlRoute
                 onChangeLanguage={onChangeLanguage}

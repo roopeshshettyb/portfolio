@@ -73,11 +73,11 @@ export default {
       title: 'Software Engineer',
       companySite: 'https://www.globalbees.com/',
       summary:
-        `<ul><li><b>Intelligent Procurement & Distribution -</b> Designed and implemented efficient supply chain processes for 200,000+ products across hundreds of warehouses by analyzing various data sources, optimizing inventory management, and streamlining distribution, enhancing overall company effectiveness.</li>
+        `<ul>
+        <li><b> Architected and developed Harbor - </b> An advanced task execution service that enables users to schedule and configure tasks with precision. Integrated a dynamic database interface for defining execution schedules and task arguments, supported credential-based configuration, parallel task execution, and scalable worker management to optimize performance and efficiency. Leveraged BPMN principles to enhance process visualization and streamline complex workflows.</li>
+        <li><b>Intelligent Procurement & Distribution -</b> Designed and implemented efficient supply chain processes for 200,000+ products across hundreds of warehouses by analyzing various data sources, optimizing inventory management, and streamlining distribution, enhancing overall company effectiveness.</li>
 
-        <li><b>10x improvement in efficiency of applications -</b> Leveraging the synergy between BigQuery and AirByte, eliminated entire servers and achieved a remarkable 10x acceleration in ETL processes ensuring unparalleled efficiency and scalability, marking a significant advancement in data processing capabilities across applications.</li>
-        
-        <li><b>Pricing Service -</b> Designed and deployed a multi-worker architecture using PM2 which fetches information of hundreds of products across marketplaces like Amazon, Flipkart within minutes. This parallelized approach optimizes data retrieval and ensures efficient processing of pricing information from multiple sources for real-time business decisions.</li></ul>
+        <li><b>10x improvement in efficiency of applications -</b> Leveraging the synergy between BigQuery and AirByte, eliminated entire servers and achieved a remarkable 10x acceleration in ETL processes ensuring unparalleled efficiency and scalability, marking a significant advancement in data processing capabilities across applications.</li></ul>
       `,
       startDate: 'Aug 2022',
       endDate: 'Present',
