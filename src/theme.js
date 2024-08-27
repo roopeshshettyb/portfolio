@@ -17,8 +17,8 @@ import IconAngularjs from 'react-devicon/angularjs/plain'
 import IconExpress from 'react-devicon/express/original';
 import IconMongodb from 'react-devicon/mongodb/original-wordmark';
 import IconTypescript from 'react-devicon/typescript/plain'
-import { School, Work } from '@material-ui/icons';
-
+import { Android, School, Work } from '@material-ui/icons';
+import IconAndroid from 'react-devicon/android/original'
 const theme = {
   laravelColor: {
     style: {
@@ -178,6 +178,14 @@ const theme = {
     },
     className: 'vertical-timeline-element--others',
     icon: <IconMongodb />,
+  },
+  androidColor: {
+    style: {
+      background: 'white',
+      color: 'green',
+    },
+    className: 'vertical-timeline-element--others',
+    icon: <Android />,
   },
 };
 

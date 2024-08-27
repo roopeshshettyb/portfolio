@@ -580,6 +580,69 @@ export default {
   ],
   projects: [
     {
+      title: 'Flash Pact Gadgets',
+      subtitle: 'Co-Ownership Platform for Expensive Products',
+      category: 'library',
+      subcategory: 'javascript',
+      contribution: true,
+      links: [
+        {
+          url: 'https://products.flashpact.in',
+          text: 'View Live Site',
+        }
+      ],
+      technologies: [
+        {
+          name: 'Serverless',
+        },
+        {
+          name: 'Postgres',
+        },
+        {
+          name: 'Javascript',
+        },
+        {
+          name: 'Nextjs',
+        },
+        {
+          name: 'S3',
+        },
+      ],
+      content:
+        'A marketplace to post products where you want to pool money and buy an expensive product',
+      date: 'July 2024 - Present',
+    },
+    {
+      title: 'CogniSensei',
+      subtitle: 'AI Powered Learning Solution',
+      category: 'library',
+      subcategory: 'android',
+      contribution: true,
+      links: [
+        // {
+        //   url: 'https://products.flashpact.in',
+        //   text: 'View Live Site',
+        // }
+      ],
+      technologies: [
+        {
+          name: 'Supabase',
+        },
+        {
+          name: 'Postgres',
+        },
+        {
+          name: 'React Native',
+        },
+        {
+          name: 'S3',
+        },
+      ],
+      content:
+        'An AI powered Learning Solution which generates quizes and worksheets based on any learning material',
+      date: 'April 2024 - June 2024',
+    },
+    {
       title: 'Flash Pact',
       subtitle: 'College focused Recruitment Platform',
       category: 'library',
@@ -600,6 +663,12 @@ export default {
         },
         {
           name: 'Javascript',
+        },
+        {
+          name: 'SQS',
+        },
+        {
+          name: 'S3',
         },
       ],
       content:
