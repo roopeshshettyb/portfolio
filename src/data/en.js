@@ -1,7 +1,7 @@
 export default {
   meta: {
     title: 'Roopesh Babu - Spartan',
-    keywords: 'Bengaluru, Nodejs, Python, Teacher',
+    keywords: 'Software Engineer, Backend Developer, Full Stack Developer, AWS, React, SQL, Time Bank Architect, Technical Leader',
     description:
       'Roopesh Babu, web development expert in Bengaluru, India. Specialities: Nodejs, Python, Databases, SQL, Microservice Architecture, React',
   },
@@ -12,13 +12,18 @@ export default {
   summary: `
 
   
-<b>Results-driven problem solver -</b> Excels in solving complex challenges with innovative solutions, from supply chain optimization to successful campaign launches.<br/>
+<b>Results-driven problem solver -</b> Proven ability to tackle complex challenges using innovative, data-informed solutions across supply chain, operations, and marketing.<br/>
 
-<b>Passionate builder and leader -</b> Leads diverse teams in developing high-performance systems, scaling initiatives, and mentoring others to reach their full potential.<br/>
+<b>Passionate builder and leader -</b> Experienced in developing high-performance systems, scaling programs, and mentoring teams to exceed goals.<br/>
 
-<b>Adaptable and resourceful -</b> Comfortable in diverse environments, embraces new technologies. Experience spans various industries and roles.<br/>
+<b>Adaptable and resourceful -</b> Thrives in diverse environments, quickly masters new technologies, and contributes across industries and roles.<br/>
 
-<b>Impactful contributor -</b> Committed to positive impact through volunteering, saving farmers' produce, and exceeding customer expectations.<br/>
+<b>Impact-focused contributor -</b> Delivers value beyond business through volunteering, reducing food waste, and driving sustainability initiatives.<br/>
+
+<b>Strong communicator and collaborator -</b> Brings clarity and momentum to cross-functional projects and fast-paced teams.<br/>
+
+<b>Continuous learner -</b> Actively explores emerging tools and methodologies to drive smarter decisions and better outcomes.<br/>
+
   `,
   pictureUrl: 'me.jpg',
   dateOfBirth: '2000-06-09',
@@ -117,6 +122,9 @@ export default {
         },
         {
           name: 'Expressjs',
+        },
+        {
+          name: 'Webdriver',
         },
       ],
     },
@@ -372,6 +380,16 @@ export default {
       },
     },
     {
+      name: 'Webdriver',
+      language: {
+        name: 'Javascript',
+        style: 'javascript',
+      },
+      category: {
+        name: 'Frameworks / SDK / CMS',
+      },
+    },
+    {
       name: 'Django',
       language: {
         name: 'Python',
@@ -580,6 +598,44 @@ export default {
   ],
   projects: [
     {
+      title: 'AI Driven Content Machine',
+      subtitle: 'Posting 150+ videos across 3 platforms weekly.',
+      category: 'library',
+      subcategory: 'python',
+      contribution: true,
+      links: [
+        // {
+        //   url: 'https://products.flashpact.in',
+        //   text: 'View Live Site',
+        // }
+      ],
+      technologies: [
+        {
+          name: 'Python',
+        },
+        {
+          name: 'Voice Cloning',
+        },
+        {
+          name: 'FFmpeg',
+        },
+        {
+          name: 'Auto Video Generation',
+        },
+        {
+          name: 'Auto Video Scripting',
+        },
+      ],
+      content:
+        `
+  <ul>
+    <li>○ Developed and maintained a Python-based pipeline that automates the end-to-end creation and distribution of short-form video content.</li>
+    <li>○ Automated generation of visuals, audio narration, metadata (titles, captions, hashtags), and scheduled posting across 3 platforms.</li>
+    <li>○ Achieved consistent publishing volume of 150+ videos weekly with minimal manual input, optimizing for engagement and reach.</li>
+  </ul>`,
+      date: 'April 2025 - Present',
+    },
+    {
       title: 'Flash Pact Gadgets',
       subtitle: 'Co-Ownership Platform for Expensive Products',
       category: 'library',
@@ -610,7 +666,7 @@ export default {
       ],
       content:
         'A marketplace to post products where you want to pool money and buy an expensive product',
-      date: 'July 2024 - Present',
+      date: 'July 2024 - Dec 2024',
     },
     {
       title: 'CogniSensei',

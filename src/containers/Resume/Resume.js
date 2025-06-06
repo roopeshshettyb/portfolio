@@ -43,7 +43,7 @@ class Resume extends Component {
   fetchHubContributions = async () => {
     try {
       const response = await axios.get('https://portfolio-api-blond.vercel.app/github');
-      // const response = await axios.get('http://localhost:3000/github');
+      // const response = await axios.get('http://localhost:3001/github');
       let total = (response.data.sum)
       this.setState({ contributions: { ...this.state.contributions, github: response.data.contributions }, total: this.state.total + total })
     } catch (error) {
@@ -54,7 +54,7 @@ class Resume extends Component {
   fetchContributions = async () => {
     try {
       const response = await axios.get('https://portfolio-api-blond.vercel.app/');
-      // const response = await axios.get('http://localhost:3000/');
+      // const response = await axios.get('http://localhost:3001/');
       let total = (response.data.sum)
       this.setState({ contributions: { ...this.state.contributions, gitlab: response.data.contributions }, total: this.state.total + total })
     } catch (error) {

@@ -27,6 +27,14 @@ const theme = {
     className: 'vertical-timeline-element--laravel',
     icon: <IconNodejs />,
   },
+  pythonColor: {
+    style: {
+      background: '#369',
+      color: "#fff"
+    },
+    className: 'vertical-timeline-element--laravel',
+    icon: <IconPython />,
+  },
   phpColor: {
     style: {
       background: '#6181b6',

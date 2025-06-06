@@ -7,7 +7,7 @@ function RawResume() {
     const drive = 'https://drive.google.com/file/d/1Ks4V5jwev3hGAp-43VPRpvA8c5Rc_HfL/view?usp=sharing';
     const fetchPdf = async () => {
         const fileUrl = 'https://portfolio-api-blond.vercel.app/resume'; // Replace with the actual Google Drive URL
-        // const fileUrl = 'http://localhost:3000/resume';
+        // const fileUrl = 'http://localhost:3001/resume';
         try {
             const response = await axios.get(fileUrl, {
                 responseType: 'blob', // Important to specify the response type as 'blob'
